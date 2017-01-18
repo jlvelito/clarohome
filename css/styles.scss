@@ -8,6 +8,15 @@ body,html{
   font-family: $font-family;
 }
 
+ul{
+  li{
+    &.active{
+      background-color: $black;
+      color: $white;
+    }
+  }
+}
+
 .ctl-form-box p span{
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari*/
